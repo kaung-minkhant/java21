@@ -1,9 +1,11 @@
-public class MarsRobot {
+import com.java21days.InstanceCounter;
+public class MarsRobot extends InstanceCounter {
   String status;
   int speed;
   float temperature;
 
   MarsRobot(String status, int speed, float temperature) {
+    super();
     this.status = status;
     this.speed = speed;
     this.temperature = temperature; 

@@ -1,4 +1,4 @@
-import java21days.WidthDepthHeight;
+import com.java21days.WidthDepthHeight;
 
 public class WidtfhDepthHeightApp {
   public static void main(String[] args) {
